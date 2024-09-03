@@ -13,21 +13,21 @@ if (!ownervb){
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = [sammar];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
         ownerlist[i + 1],         
         true                        
     ];
-    global.owner.push(owner);
+    global.owner.push(sammar);
 }
 
 //💌------------------------------------------💌
 
 
-//💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923042205427'] 
+//💌global.pairingNumber = "923487790579" //put your bot number here💌
+global.mods = ['92387790579'] 
 global.prems = ['']
 global.allowed = ['']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
